@@ -1,7 +1,7 @@
 function showProduct() {
-  let name = document.getElementById("pName").value;
-  let price = document.getElementById("pPrice").value;
-  let desc = document.getElementById("pDesc").value;
+  var name = document.getElementById("pName").value;
+  var price = document.getElementById("pPrice").value;
+  var desc = document.getElementById("pDesc").value;
 
   // Concatenation
   let result = "Product: " + name + " | Price: " + price + " | Description: " + desc;
@@ -14,4 +14,5 @@ function showProduct() {
 
   // Method 3: Show in console
   console.log(result);
+
 }
